@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        - DEV=true
+        DEV: "true" 
     ports:
       - "5000:5000"
     volumes:
